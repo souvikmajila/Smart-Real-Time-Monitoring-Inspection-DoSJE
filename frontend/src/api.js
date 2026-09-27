@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_BASE = 'http://localhost:4000';
+export const API_BASE = 'https://smart-real-time-monitoring-inspection-0id7.onrender.com';
 
 const api = axios.create({ baseURL: `${API_BASE}/api` });
 
